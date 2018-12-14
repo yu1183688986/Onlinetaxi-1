@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">网约车</string>
+    <string name="str_main_message">信息</string>
+    <string name="str_main_navigation">导航</string>
+    <string name="str_main_app_not_install">未安装该应用</string>
+    <string name="str_main_didi">滴滴司机</string>
+    <string name="str_main_settings">设置</string>
+    <string name="str_main_event">事件上报</string>
+
+    <string name="str_login_user_id_hint">请输入卡号或工号登录</string>
+    <string name="str_login_user_id">工号登录</string>
+    <string name="str_login_history">登录历史</string>
+
+    <string name="str_user_company_name">单位名称:</string>
+    <string name="str_user_id">工&#12288;&#12288;号:</string>
+    <string name="str_user_name">姓&#12288;&#12288;名:</string>
+    <string name="str_user_plate_number">车&#8194;牌&#8194;号:</string>
+
+</resources>
