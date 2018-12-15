@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".ui.UserInfoActivity">
+
+    <ImageView
+        android:id="@+id/iv_user_profile"
+        android:layout_width="@dimen/dimen_user_profile_width"
+        android:layout_height="@dimen/dimen_user_profile_height"
+        android:src="@drawable/ic_user_profile_default"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/str_user_name"
+        app:layout_constraintBottom_toTopOf="@id/tv_go_to_work"
+        app:layout_constraintLeft_toRightOf="@id/iv_user_profile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/tv_go_to_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_go_to_work"
+        app:layout_constraintBottom_toTopOf="@id/tv_after_work"
+        app:layout_constraintLeft_toLeftOf="@id/tv_user_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_user_name" />
+
+    <TextView
+        android:id="@+id/tv_after_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_after_work"
+        app:layout_constraintBottom_toTopOf="@id/rl_root"
+        app:layout_constraintLeft_toLeftOf="@id/tv_go_to_work"
+        app:layout_constraintTop_toBottomOf="@id/tv_go_to_work" />
+
+    <RelativeLayout
+        android:id="@+id/rl_root"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="36dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="36dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_sign_out"
+        app:layout_constraintLeft_toLeftOf="@id/tv_after_work"
+        app:layout_constraintTop_toBottomOf="@id/tv_after_work"
+        app:layout_constraintWidth_percent="0.5">
+
+        <TextView
+            android:id="@+id/tv_total_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/str_total_money" />
+
+        <TextView
+            android:id="@+id/tv_unit_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/str_unit_price" />
+
+        <TextView
+            android:id="@+id/tv_travel_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_total_money"
+            android:text="@string/str_travel_distance" />
+
+        <TextView
+            android:id="@+id/tv_passenger_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_unit_price"
+            android:text="@string/str_travel_distance" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_sign_out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/rl_root"
+        app:layout_constraintTop_toBottomOf="@id/rl_root" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_cancel"
+        app:layout_constraintLeft_toRightOf="@id/btn_sign_out"
+        app:layout_constraintTop_toTopOf="@id/btn_sign_out" />
+</android.support.constraint.ConstraintLayout>

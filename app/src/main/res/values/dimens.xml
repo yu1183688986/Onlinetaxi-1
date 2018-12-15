@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_user_profile_height">200dp</dimen>
+    <dimen name="dimen_user_profile_width">160dp</dimen>
+
+    <dimen name="dimen_property_name_text_size">24sp</dimen>
+</resources>

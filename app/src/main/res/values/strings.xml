@@ -6,14 +6,74 @@
     <string name="str_main_didi">滴滴司机</string>
     <string name="str_main_settings">设置</string>
     <string name="str_main_event">事件上报</string>
+    <string name="str_main_phone">电话</string>
 
     <string name="str_login_user_id_hint">请输入卡号或工号登录</string>
     <string name="str_login_user_id">工号登录</string>
     <string name="str_login_history">登录历史</string>
+    <string name="str_test">测试入口</string>
 
     <string name="str_user_company_name">单位名称:</string>
     <string name="str_user_id">工&#12288;&#12288;号:</string>
     <string name="str_user_name">姓&#12288;&#12288;名:</string>
     <string name="str_user_plate_number">车&#8194;牌&#8194;号:</string>
 
+    <string name="str_go_to_work">上班时间:</string>
+    <string name="str_after_work">下班时间:</string>
+    <string name="str_total_money">总计金额:0.0元</string>
+    <string name="str_unit_price">单价:0.0元</string>
+    <string name="str_travel_distance">行驶里程:0.0公里</string>
+    <string name="str_passenger_distance">载客里程:0.0公里</string>
+    <string name="str_sign_out">确定签退</string>
+    <string name="str_cancel">取消</string>
+
+    <string name="str_phone_book">电话本</string>
+    <string name="str_call_history">通话记录</string>
+    <string name="str_call_police">报警</string>
+    <string name="str_contact_us">联系公司</string>
+
+    <string name="str_text_message">文本消息</string>
+    <string name="str_issue_message">问题消息</string>
+
+    <string name="str_ring_setting">铃声设置</string>
+    <string name="str_wifi_setting">Wifi设置</string>
+    <string name="str_back_light_setting">背光设置</string>
+    <string name="str_device_state">设备状态</string>
+    <string name="str_operations_management_setting">运维管理</string>
+    <string name="str_about_us">关于我们</string>
+
+    <string name="str_ring_volume">铃声音量:</string>
+    <string name="str_media_volume">媒体音量:</string>
+    <string name="str_ring_source">铃声设置:</string>
+
+    <string name="str_parameter_setting">参数设置</string>
+    <string name="str_web_setting">Web设置</string>
+    <string name="str_standby">待机</string>
+    <string name="str_change_password">修改密码</string>
+    <string name="str_android_setting">Android设置</string>
+    <string name="str_android_test">Android测试</string>
+    <string name="str_device_test">硬件测试</string>
+    <string name="str_clear_data">清除数据</string>
+    <string name="str_update_user_info">更新司机信息</string>
+    <string name="str_double_sim">双卡设置</string>
+    <string name="str_restore_production_settings">恢复出产设置</string>
+    <string name="str_reboot">重启设备</string>
+    <string name="str_control">控制界面</string>
+    <string name="str_playback">视频回放</string>
+    <string name="str_install_app">安装应用</string>
+    <string name="str_aging_test">老化测试</string>
+
+    <string name="str_web_ip">Web服务器IP</string>
+    <string name="str_web_port">Web服务器端口</string>
+    <string name="str_business_ip">业务平台IP</string>
+    <string name="str_business_port">业务平台端口</string>
+
+    <string name="str_login_user_id_length_error">工号长度不对，请填写0-20位的工号</string>
+    <string-array name="test">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
 </resources>

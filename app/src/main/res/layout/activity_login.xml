@@ -4,16 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".ui.LoginActivity">
 
     <ImageView
         android:id="@+id/iv_login_top_logo"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:src="@drawable/ic_login_top_logo"
-        app:layout_constraintBottom_toTopOf="@id/et_login_user_id"
-        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintBottom_toTopOf="@id/txt_password_hint"
+        app:layout_constraintHeight_percent="0.2"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_password_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/et_login_user_id"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_login_top_logo" />
 
     <EditText
         android:id="@+id/et_login_user_id"
@@ -24,7 +35,7 @@
         app:layout_constraintBottom_toTopOf="@id/btn_login"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_login_top_logo" />
+        app:layout_constraintTop_toBottomOf="@id/txt_password_hint" />
 
     <Button
         android:id="@+id/btn_login"
@@ -44,4 +55,12 @@
         app:layout_constraintRight_toRightOf="@id/btn_login"
         app:layout_constraintTop_toBottomOf="@id/btn_login" />
 
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_test"
+        app:layout_constraintLeft_toLeftOf="@id/btn_login"
+        app:layout_constraintRight_toRightOf="@id/btn_login"
+        app:layout_constraintTop_toBottomOf="@id/btn_login_history" />
 </android.support.constraint.ConstraintLayout>
